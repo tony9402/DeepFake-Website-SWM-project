@@ -1,4 +1,4 @@
-#### Check Pretrained
+#### Check Pretrained START
 import os
 
 PRETRAINED_DIR = "./api/weights/resnest269rec"
@@ -7,7 +7,7 @@ DOWNLOAD_URL   = "https://github.com/CryptoSalamander/DeepFake-Detection/release
 if not os.path.isfile(PRETRAINED_DIR):
     print(f"DOWNLOAD pretrained model -> {PRETRAINED_DIR}")
     os.system(f"wget -O {PRETRAINED_DIR} {DOWNLOAD_URL}")
-####
+#### Check Pretrained END
 
 from app import app, db
 from app.models import User, Video, Likes, Comments
