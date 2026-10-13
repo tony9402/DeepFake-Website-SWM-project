@@ -1,5 +1,26 @@
 # DeepFake-Website-SWM-project
 
+<!-- repository-guide:start -->
+## 저장소 안내
+
+소프트웨어 마에스트로 11기 딥페이크 프로젝트의 웹 관련 코드입니다.
+
+| 경로 | 내용 |
+| --- | --- |
+| [requirements.txt](requirements.txt) | Python 의존성 목록 |
+| [Dockerfile](Dockerfile) | 컨테이너 빌드 설정 |
+| [LICENSE](LICENSE) | 라이선스 |
+| [api/](api/) | Python 4개 |
+| [app/](app/) | HTML 9개, Python 4개 |
+| [images/](images/) | 이미지 자료 |
+| [migrations/](migrations/) | Python 2개 |
+| [config.py](config.py) | 설정 코드 |
+| [server.py](server.py) | Python 1개 |
+
+목적과 구현 범위, 구성 분석은 [Explain.md](Explain.md)를 참고하세요.
+
+<!-- repository-guide:end -->
+
 [![Version](https://img.shields.io/badge/TrustAPI-v0.0.1-brightgreen)](https://git.swmgit.org/swmaestro/trustnet-2)
 [![PyTorch](https://img.shields.io/badge/PyTorch-v1.7.0-brightgreen)](https://github.com/pytorch/pytorch/releases/tag/v1.7.0)
 [![TensorRT](https://img.shields.io/badge/TensorRT-v7-brightgreen)](https://github.com/NVIDIA/TensorRT/releases/tag/20.10)
